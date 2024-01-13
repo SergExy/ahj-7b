@@ -1,0 +1,27 @@
+{
+  "name": "ahj-7b",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "forever index.js",
+    "watch": "forever -w index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergExy/ahj-7b.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergExy/ahj-7b/issues"
+  },
+  "homepage": "https://github.com/SergExy/ahj-7b#readme",
+  "dependencies": {
+    "forever": "^4.0.3",
+    "koa": "^2.15.0",
+    "koa-body": "^6.0.1",
+    "uuid": "^9.0.1"
+  }
+}
